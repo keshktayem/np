@@ -127,8 +127,8 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+  <a class="navbar-link" data-nav-link href="index.html">About</a>
+</li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Events</button>
@@ -155,7 +155,7 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About Us</h2>
+          <h2 class="h2 article-title">Algebra</h2>
         </header>
 
         <section class="about-text">
@@ -165,7 +165,7 @@
           </p>
 
           <p>
-            We foster learning through engaging, interactive, and accessible online workshops designed to inspire and empower young minds. 
+            We foster learning through engaging, interactive, and accessible online workshops designed to inspire and empower young minds.
           </p>
         </section>
 
@@ -174,66 +174,6 @@
           - service
         -->
 
-        <section class="service">
-
-          <h3 class="h3 service-title">What We Teach</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Coding</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Math</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Journalism</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
 
 
         <!--
@@ -242,7 +182,7 @@
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Our Team</h3>
+          <h3 class="h3 testimonials-title">Our Algebra Teachers</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -397,11 +337,149 @@
         </div>
 
 
-        <!--
-          - clients
-        -->
 
-=
+        <section class="clients">
+
+
+            <section class="regiformalg" id="regiformalg-section">
+                <header>
+                  <h3 class="h2 article-title">Register Now</h3>
+                </header>
+
+                <!-- Success or Error Message (Initially Hidden) -->
+                <p id="success-message" style="display: none; color: green; font-weight: bold; text-align: center;">
+                  ✅ Your registration for Algebra was successful!
+                </p>
+
+                <p id="error-message" style="display: none; color: red; font-weight: bold; text-align: center;">
+                  ⚠️ Something went wrong. Please try again.
+                </p>
+
+                <!-- Form -->
+                <form id="regialg-form" action="https://formsubmit.co/ajax/tayemkeshk@yahoo.com" method="POST" class="form" data-form>
+  <div class="input-wrapper">
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Parent's Name</span>
+      <input type="text" name="parentname" class="form-input" placeholder="Parent's Name" required data-form-input>
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Child's Name</span>
+      <input type="text" name="childname" class="form-input" placeholder="Child's Name" required data-form-input>
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Parent's Email Address</span>
+      <input type="email" name="parentemail" class="form-input" placeholder="Parent's Email Address" required data-form-input>
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Child's Email Address (Optional)</span>
+      <input type="email" name="childemail" class="form-input" placeholder="Child's Email Address (Optional)">
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Parent's Phone Number</span>
+      <input type="tel" name="parentnum" class="form-input" placeholder="Parent's Phone Number" required data-form-input>
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Child's Grade</span>
+      <select name="childgrade" class="form-input" required data-form-input style="background-color: #1e1e20; color: white;">
+        <option value="" disabled selected>Select Grade</option>
+        <option value="1">1st Grade</option>
+        <option value="2">2nd Grade</option>
+        <option value="3">3rd Grade</option>
+        <option value="4">4th Grade</option>
+        <option value="5">5th Grade</option>
+        <option value="6">6th Grade</option>
+        <option value="7">7th Grade</option>
+        <option value="8">8th Grade</option>
+        <option value="9">9th Grade</option>
+        <option value="10">10th Grade</option>
+        <option value="11">11th Grade</option>
+        <option value="12">12th Grade</option>
+      </select>
+    </label>
+    <label class="flex flex-col" style="color: white;">
+      <span class="mb-4 font-medium">Teacher and Time</span>
+      <select name="teachertime" class="form-input" required data-form-input style="background-color: #1e1e20; color: white;">
+        <option value="" disabled selected>Select Teacher and Time</option>
+        <option value="ALgebra Daniel He 5-6 Thursday">Teacher Daniel He from 5:00pm - 6:00pm on Thursdays</option>
+        <option value="2">2nd Grade</option>
+        <option value="3">3rd Grade</option>
+        <option value="4">4th Grade</option>
+      </select>
+    </label>
+  </div>
+
+  <!-- Prevents redirecting to another page -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <button class="form-btn" type="submit" id="submit-btn">
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Register For Algebra!</span>
+  </button>
+</form>
+                </section>
+
+                <script>
+                  console.log("JavaScript Loaded");
+
+                  document.getElementById("regialg-form").addEventListener("submit", function(event) {
+                    event.preventDefault(); // Prevent default form submission
+
+                    let form = event.target;
+                    let formData = new FormData(form);
+                    let submitBtn = document.getElementById("submit-btn");
+                    let submitBtnText = submitBtn.querySelector("span");
+
+                    // Show loading state
+                    submitBtn.disabled = true;
+                    submitBtnText.textContent = "Loading...";
+
+                    // Proceed with form submission
+                    fetch(form.action, {
+                      method: "POST",
+                      body: formData,
+                      headers: {
+                        'Accept': 'application/json'
+                      }
+                    }).then(response => {
+                      if (response.ok) {
+                        // Show success message
+                        console.log("Form submitted successfully");
+                        document.getElementById("success-message").style.display = "block"; // Show success message
+                        form.reset(); // Clear form fields after submission
+
+                        // Hide success message after 15 seconds
+                        setTimeout(() => {
+                          document.getElementById("success-message").style.display = "none";
+                        }, 15000); // 15 seconds
+
+                      } else {
+                        // Show error message
+                        console.log("Error submitting the form");
+                        document.getElementById("error-message").style.display = "block"; // Show error message
+
+                        // Hide error message after 15 seconds
+                        setTimeout(() => {
+                          document.getElementById("error-message").style.display = "none";
+                        }, 15000); // 15 seconds
+                      }
+                    }).catch(error => {
+                      console.log("Error during fetch: ", error);
+                      document.getElementById("error-message").style.display = "block"; // Show error message
+
+                      // Hide error message after 15 seconds
+                      setTimeout(() => {
+                        document.getElementById("error-message").style.display = "none";
+                      }, 15000); // 15 seconds
+                    }).finally(() => {
+                      // Reset button state
+                      submitBtn.disabled = false;
+                      submitBtnText.textContent = "Register For Algebra!";
+                    });
+                  });
+                </script>
+
+
+        </section>
 
       </article>
 
@@ -409,7 +487,7 @@
 
 
 
-     
+
 
 
 
